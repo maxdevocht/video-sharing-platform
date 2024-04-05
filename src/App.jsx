@@ -6,6 +6,9 @@ export default function App() {
   return (
     <>
       <Sidebar />
+      <main className="main">
+        
+      </main>
     </>
   )
 }

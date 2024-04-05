@@ -57,6 +57,7 @@ body{
 .left-section .logo a{
   font-weight: 500;
   color: #464646;
+  letter-spacing: 1px;
 }
 
 .left-section .sidebar{
@@ -78,14 +79,14 @@ body{
   font-size: 20px;
   padding: 10px;
   border-radius: 12px;
-  transition: all 0.4s ease;
+  transition: all 0.2s ease;
 }
 
 .left-section .sidebar .item h3,
 .left-section .sign-out h3{
   font-weight: 500;
   font-size: 14px;
-  transition: all 0.4s ease;
+  transition: all 0.2s ease;
 }
 
 .left-section .sidebar .item.active i{

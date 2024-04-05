@@ -21,14 +21,15 @@ export default function Sidebar() {
     return (
         <aside className="left-section">
             <div className="logo">
-                <img src="" alt="" />
+                <img src="./src/assets/images/logo.svg" alt="Logo" />
+                <a href="#">VIDVAULT</a>
             </div>
 
             <div className="sidebar">
                 {sidebarItems.map((sideItem, index) => (
                 <div
                     key={index}
-                    className={`sidebar-item ${activeItem === index ? 'active' : ''}`}
+                    className={`item ${activeItem === index ? 'active' : ''}`}
                     onClick={() => handleItemClick(index)}
                 >
                     <i className={sideItem.icon}></i>
