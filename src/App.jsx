@@ -1,15 +1,13 @@
 import { useState } from 'react'
 import Sidebar from '../components/Sidebar'
-import Header from '../components/Header'
+import Main from '../components/Main'
 import './App.css'
 
 export default function App() {
   return (
     <>
       <Sidebar />
-      <main className="main">
-        <Header />
-      </main>
+      <Main />
     </>
   )
 }
