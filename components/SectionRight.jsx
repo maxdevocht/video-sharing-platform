@@ -29,7 +29,7 @@ export default function SectionRight() {
             <div className="profile">
                 <div className="info">
                     <i className="ri-user-3-line"></i>
-                    <h5>Welcome Reza!</h5>
+                    <h5>Welcome Max!</h5>
                 </div>
                 <div className="user">
                     <i className="ri-notification-2-line"></i>

@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import Separator from "./Separator";
 import Videos from "./Videos";
 
+
 export default function Main() {
     return (
         <div className="main">
